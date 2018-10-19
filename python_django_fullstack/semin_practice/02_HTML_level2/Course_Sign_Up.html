@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>final practice</title>
+  </head>
+  <body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+    <form action="thankyou.html" method="get">
+      <!-- the thankyou.html is in the same path, that's why don't need path -->
+      <p>
+        <label for="fn">First Name:</label>
+        <input id="fn" type="text" name="" placeholder="First Name" required>
+        <label for="ln">Last Name:</label>
+        <input id="ln" type="text" name="" placeholder="Last Name" required>
+      </p>
+      <!-- for newline, don't need to all the component in the <p>
+      tag, just <p></p> in the oneline, can use as a new line -->
+      <p>
+        <label for="em">Email:</label>
+        <input id="em" type="email" name="" value="" placeholder="name@email.com">
+        <label for="pw">Password:</label>
+        <input id="pw" type="password" name="" value="">
+        <!-- the values gonna be used in backend -->
+      </p>
+
+      <p>Are you over the age of 18?</p>
+      <p>
+        <label for="y">Yes:</label>
+        <input id="y" type="radio" name="Over18" value="yesOver">
+        <label for="n">No:</label>
+        <input id="n" type="radio" name="Over18" value=noOver"">
+      </p>
+
+      <p>Do you have a Crdit Card or PayPal?</p>
+      <p>
+        <select name="payment">
+          <option value="credit">Credit Card</option>
+          <option value="paypal">PayPal</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" name="" value="Submit Feedback">
+      </p>
+
+    </form>
+  </body>
+</html>

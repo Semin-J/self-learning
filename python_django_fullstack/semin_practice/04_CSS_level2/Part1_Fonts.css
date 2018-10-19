@@ -1,0 +1,37 @@
+/* Not all OS have same fonts */
+/* For Windows
+https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows
+   For macOS
+https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS
+*/
+/* https://www.cssfontstack.com */
+/* https://fonts.google.com  -> Click '+' button and Check 'EMBED' section */
+/* https://fontlibrary.org/ */
+h1{
+  font-family: "Arial";
+}
+
+p{
+  font-family: monospace;
+}
+
+/* Usually browsers default font-size is 16px */
+/* 'em' means the font-size of the parent part */
+/* Not always know exact font-size, just want to *ratio size sth like that */
+
+body{
+  font-size: 20px;
+}
+
+#two{
+  font-size: 1.0em;
+}
+
+p{
+  font-family: 'Uncial Antiqua', cursive;
+  /* font-weight availability is up to font-family */
+}
+
+h1{
+  text-align: center;
+}

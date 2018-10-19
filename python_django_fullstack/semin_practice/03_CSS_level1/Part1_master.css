@@ -1,0 +1,23 @@
+/* Cascading Style Sheets */
+/* how HTML elements are displayed on a page */
+/* selected tag {
+  property: value;
+} */
+
+h1{
+  color: blue;
+}
+/* Can use color name, Hex code(#428614), rgb(66, 134, 244) */
+li{
+  color: rgb(255, 97, 0);
+}
+
+p{
+  color: #0895a8;
+  /* Most common */
+}
+
+h4{
+  color: rgba(255, 97, 0, 0.2);
+  /* alpha(trasparency): 0(fully trasparent)-1(fully opaque) */
+}

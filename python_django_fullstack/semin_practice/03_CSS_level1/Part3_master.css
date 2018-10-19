@@ -1,0 +1,46 @@
+/* selected tag{
+  property: value;
+} */
+/* "id" to target single elements */
+/* "class" to target groups of elements */
+/* Check "CSS Selectors" */
+
+/* '.' for class */
+.firstDiv{
+  color: blue;
+}
+.secondDiv{
+  color: red;
+}
+
+/* '#' for id */
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/*
+
+'*' for all the elements on the page (overwrite everything even class, but "id")
+*{
+  color: orange;
+}
+
+ */
+
+/* all <ul> "next to <h3>" */
+/* json sibiling(peer) relationship use '+' */
+ h3 + ul{
+   border: 4px dotted purple;
+ }
+
+ /* parent-child relationship(descendant) use 'space' */
+ li a{
+   color: red;
+ }
+
+ /* Affect to attribute using '[ ]' */
+ li a[href="www.npr.org"]{
+   color: blue;
+   border: 5px solid orange;
+ }
