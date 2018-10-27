@@ -1,0 +1,23 @@
+DOM
+- Document Object Model
+-  DOM will allow us to interface our JavaScript code to interact with HTML and CSS
+- Browsers will construct the DOM, which basically means storing all the HTML tags as JavaScript objects
+
+- Go to website and in the console(F12) type: document
+- That will return the HTML text of the page. To see the actual object use:
+console.dir(document)
+- This DOM will allow us to use JavaScript to interact with the web page
+- The HTML elements are properties of the DOM
+
+**document attributes**
+- document.URL
+- document.body
+- document.head
+- document.links
+
+**document methods**(for grabbing elements from the DOM)
+- document.getElementById()
+- document.getElementByClassName()
+- document.getElementsByTagName()
+- document.querySelector() : CSS selector(first match)
+- document.querySelectorAll(): all match
