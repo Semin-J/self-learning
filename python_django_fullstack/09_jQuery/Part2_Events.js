@@ -10,6 +10,7 @@
 ////////////
 
 // On Click
+// Can Use keyword "this"
 $('h1').click(function(){
   console.log("There was a click!");
   $(this).text("I was changed!!!")
@@ -29,6 +30,7 @@ $('h3').click(function() {
 // KEYPRESS ////
 ///////////////
 // Using This with jQuery
+
 $('input').eq(0).keypress(function() {
   $('h3').toggleClass("turnRed");
 })
@@ -38,10 +40,12 @@ $('input').eq(0).keypress(function(event) {
   console.log(event);
 })
 
+// In Console, can check properties of the event, check 'which' very bottom.
+// Single character also has its own location number(Keycode).
 // Each Keyboard Key has a Keycode, for example Enter is 13
 $('input').eq(0).keypress(function(event) {
   if(event.which === 13){
-    $('h3').toggleClass("turnRed");
+    $('h3').toggleClass("turnBlue");
   }
 })
 
@@ -67,7 +71,7 @@ $('li').on('mouseenter',function() {
 $('input').eq(1).val("FADE OUT EVERYTHING");
 
 $('input').eq(1).on("click",function(){
-  $(".container").fadeOut(3000) ;
+  $(".container").fadeOut(3000) ; //number of milliseconds
 })
 
 
