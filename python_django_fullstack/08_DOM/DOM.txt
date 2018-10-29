@@ -21,3 +21,5 @@ console.dir(document)
 - document.getElementsByTagName()
 - document.querySelector() : CSS selector(first match)
 - document.querySelectorAll(): all match
+
+
