@@ -6,7 +6,8 @@ print(s[::2]) # '::' jump! ::1 is default
 #[:-1] -> All elements but the very last one
 
 #.split(), delimiter default is space. delimiter isn't shown. Shown as a list. Case sensitive.
-print(s.split('W'))
+#.split()[i], can use index, based on delimiter
+print(s.split('W'))[0] # 'Hello '
 
 #string.format()-> don't need to know the type of the variable
 print("This is a {p}".format(p="hi"))
