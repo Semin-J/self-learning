@@ -3,7 +3,7 @@
 
 import random
 
-def randomNumber():
+def random_number():
     n = random.sample(range(10), 3)
     if n[0] == 0 :
         while n[0] == 0 :
@@ -14,8 +14,8 @@ def randomNumber():
         key += str(n[i])
     return key
 
-def baseballGame():
-    key = randomNumber()  
+def baseball_game():
+    key = random_number()  
     loop = True
     while loop:
         user = input("put your number : ")
@@ -64,7 +64,8 @@ def main():
 main()
 resume = "y"
 while (resume == "y" or resume == "Y"):
-    baseballGame()
+    baseball_game()
     resume = input("Do you want to play again? (y/n) : ")
 print("Thank you for playing!")
+input()
 
