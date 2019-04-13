@@ -16,7 +16,7 @@
 // Insert or update an element at a specific index O(1)
 // Delete an element by setting it to null O(1)
 // Delete an element by shifting elements O(n)
-public class array {
+public class Array_1 {
   public static void main(String[] args) {
     int[] intArr = new int[7];
     intArr[0] = 10;
